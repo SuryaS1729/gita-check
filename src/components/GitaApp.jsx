@@ -9,7 +9,7 @@ const GitaApp = () => {
   const filteredShloka = shlokas.find(
     (shloka) => shloka.chapter_number === chapter && shloka.verse_number === verse
   );
-
+//this finds the shlokas
   return (
     <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
       <h1>Bhagavad Gita Shlokas</h1>
